@@ -1,7 +1,7 @@
-call plug#begin()
+call plug#begin('~/.config/nvim/autoload')
     Plug 'preservim/nerdtree' 
     Plug 'cocopon/iceberg.vim'
-    Plug 'bluz71/vim-moonfly-colors'
+    " Plug 'bluz71/vim-moonfly-colors'
     " Plug 'semibran/vim-colors-synthetic'
     Plug 'jacoborus/tender.vim'
     Plug 'tomasiser/vim-code-dark'
@@ -15,6 +15,8 @@ nnoremap <C-n> :NERDTreeToggle<CR>
 nnoremap <C-l> :so ~/.config/nvim/init.vim <CR>
 nnoremap <C-w> <C-w><C-w>
 
+"build and run"
+command Br !g++ %t -o % && ./%t<CR>
 
 
 tnoremap <Esc> <C-\><C-n>
@@ -25,7 +27,7 @@ tnoremap <Esc> <C-\><C-n>
 "endif
 
 
-colorscheme delek
+colorscheme codedark
 
 map zz :wa <CR>
 map Z :wa <bar> qa <CR>
@@ -37,7 +39,6 @@ set cindent
 set shiftwidth=4
 set t_Co=256
 set history=80 
-
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
@@ -113,7 +114,6 @@ hi Comment cterm=italic ctermfg=yellow
 "hi Statment ctermfg=142
 "hi! Indentifier ctermfg=226
 "hi Type ctermfg=33
-
 
 
 
