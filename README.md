@@ -1,7 +1,4 @@
-## Welcome
-我的名字是王宥傑 @jay1224-jay
-
-我喜歡 **寫程式**
+NTHU CS
 
 useful website:
 
