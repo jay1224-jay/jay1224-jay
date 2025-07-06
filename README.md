@@ -1,7 +1,7 @@
-NTHU CS
+## About me
+👋 Hi, I'm a CS student at NTHU.
+🔧 I’m into machine learning, software development, embedded systems, and stock investing.
+💡 Always building, learning, and experimenting with tech.
 
-useful website:
-
-[My Website](https://wuj.pythonanywhere.com/)
-
-[Latex online editor](https://www.codecogs.com/latex/eqneditor.php)  to write math formula 
+## Useful websites:
+- [Overleaf](https://www.overleaf.com/)
