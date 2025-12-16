@@ -1,7 +1,7 @@
 ## About me
 👋 Hi, I'm a CS student at NTHU.
 
-🔧 I’m into machine learning, software development, embedded systems, and stock investing.
+🔧 I’m into machine learning, software development, mathematics, and stock investing.
 
 💡 Always building, learning, and experimenting with tech.
 
